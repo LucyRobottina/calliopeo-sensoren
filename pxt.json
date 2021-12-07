@@ -1,0 +1,23 @@
+{
+    "name": "CalliopEO Sensoren",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "TCS34725": "github:calliope-edu/pxt-tcs34725fn#533e3580e0732a1f94d2b3344ba645c5fdf1acd8",
+        "SI1145": "github:calliope-edu/pxt-sunlightsensor-si1145#09ad70e5f35cd74cf04d2cc4413bc7accedbaebc",
+        "SCD30": "github:calliope-edu/pxt-scd30#4758ef2cb9f3b006076b64879c659c694bb9ab0a"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
